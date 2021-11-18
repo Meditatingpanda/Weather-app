@@ -11,6 +11,7 @@ body {
   background-image: url(https://source.unsplash.com/1600x900/?cloudy);
   background-size: cover;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 .app-body {
