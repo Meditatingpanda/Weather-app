@@ -70,4 +70,10 @@ body {
   font-size: 1.1rem;
 }
 
+@media screen and (max-width: 370px) {
+  html {
+    font-size: 85%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
