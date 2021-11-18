@@ -17,7 +17,10 @@
       href="https://i.pinimg.com/originals/77/0b/80/770b805d5c99c7931366c2e84e88f251.png"
       type="image/x-icon"
     />
+    <link rel="stylesheet" href="clock.css">
   </head>
+
+  
   <body>
     <div class="app-body">
       <div class="search-box">
@@ -26,8 +29,8 @@
       </div>
 
       <div class="desc">
-        <h2 class="city"></h2>
-        <h2 id="temp" class="temp"></h2>
+           <h2 class="city"></h2>
+           <h2 id="temp" class="temp"></h2>
          <div class="more-info">
             <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
             <div class="description"></div>
@@ -35,8 +38,20 @@
         <h3 class="humidity"></h3>
         <h3 class="wind"></h3>
       </div>
+   <!-- this section for clock -->
+
+   <div class="clock"> 
+    <img src="img/clock.png" id="bg-clock" alt="">
+    <img src="img/1.png" id="second-hand">
+    <img src="img/2.png" id="min-hand" >
+    <img src="img/3.png" id="hour-hand">
+   </div>
+
+
+
     </div>
 
     <script src="app.js"></script>
+    <script src="clock.js"></script>
   </body>
 </html>
